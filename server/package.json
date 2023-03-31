@@ -1,0 +1,32 @@
+{
+  "name": "meet-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  },
+  "nodemonConfig": {
+    "env": {
+      "PORT": 4000,
+      "User": "postgres",
+      "Host": "localhost",
+      "Database": "postgres",
+      "Password": "justmetbaba",
+      "DBPort": "5432"
+    }
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.1",
+    "pg": "^8.9.0"
+  }
+}

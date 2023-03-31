@@ -1,0 +1,44 @@
+import { IUserProps } from "../../user/register/types";
+
+export const userStubList:IUserProps[]=[
+    {
+    UserId:0,
+      FirstName:'Kelechi',
+      Email:'kelechi@yahoo.com',
+      LastName:'Nwankpa',
+      Password:'ffgdfg',
+      StudentId:'12345'
+    },
+    {
+        UserId:1,
+        FirstName:'KC',
+        Email:'kelechi@yahoo.com',
+        LastName:'Nwankpa',
+        Password:'ffgdfg',
+        StudentId:'125'
+      },
+      {
+        UserId:2,
+        FirstName:'KC1',
+        Email:'kelechi@yahoo.com',
+        LastName:'Nwankpa',
+        Password:'ffgdfg',
+        StudentId:'1345'
+      },
+      {
+        UserId:3,
+        FirstName:'KC2',
+        Email:'kelechi@yahoo.com',
+        LastName:'Nwankpa',
+        Password:'ffgdfg',
+        StudentId:'1234'
+      },
+      {
+        UserId:4,
+        FirstName:'KC3',
+        Email:'kelechi@yahoo.com',
+        LastName:'Nwankpa',
+        Password:'ffgdfg',
+        StudentId:'1205'
+      },
+]

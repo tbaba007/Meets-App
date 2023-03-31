@@ -1,0 +1,20 @@
+export interface IRequestProps{
+    FirstName:string;
+    LastName:string;
+    Location:string;
+    Title:string;
+    sport:string;
+    NumberOfPlayers:number;
+    StartDate:string;
+    StartTime:string;
+    EndDate:string;
+    EndTime:string;
+    MarketPlaceId?:number;
+    Acceptedids?:string;
+    remaining_count?:number;
+    Email:number;
+    StudentId:number;
+    Mobile:string;
+    UserId?:number;
+    InviteesIds:string
+}
